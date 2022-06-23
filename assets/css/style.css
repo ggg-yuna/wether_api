@@ -1,6 +1,22 @@
+.wether {
+  text-align: center;
+  height: 800px;
+}
+
 .wether-conteinar {
-  border: solid 1px black;
-  height: 100vh;
+  display: flex;
+  height: 80vh;
   width: 100vw;
+  margin: 10px auto;
+  justify-content: center;
+}
+
+.wether-today, .wether-tomorrow, .wether-dayAfterTomorrow {
+  border: solid 1px black;
+  width: 300px;
+}
+
+.wether-fhoto {
+  height: 60%;
 }
 /*# sourceMappingURL=style.css.map */

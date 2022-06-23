@@ -1,8 +1,28 @@
-.wether{
-  &-conteinar{
-    border: solid 1px black;
-    height: 100vh;
+.wether {
+  text-align: center;
+  // background-color: aquamarine;
+  height: 800px;
+
+  &-conteinar {
+    display: flex;
+    // border: solid 1px black;
+    height: 80vh;
     width: 100vw;
+    margin: 10px auto;
+    justify-content: center;
+  }
+
+  &-today,
+  &-tomorrow,
+  &-dayAfterTomorrow {
+    border: solid 1px black;
+    width: 300px;
+  }
+
+  &-fhoto{
+    // background-color: aquamarine;
+    height: 60%;
+    
   }
 
 }
