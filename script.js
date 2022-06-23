@@ -1,5 +1,5 @@
 // 東京(130000)の予報を取得
-let url = "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json";
+let url = "https://www.jma.go.jp/bosai/forecast/data/forecast/471000.json";
 
 fetch(url)
     .then(function(response) {
