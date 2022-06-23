@@ -1,9 +1,9 @@
-.wether {
+.weather {
   text-align: center;
   height: 800px;
 }
 
-.wether-conteinar {
+.weather-conteinar {
   display: flex;
   height: 80vh;
   width: 100vw;
@@ -11,12 +11,12 @@
   justify-content: center;
 }
 
-.wether-today, .wether-tomorrow, .wether-dayAfterTomorrow {
+.weather-today, .weather-tomorrow, .weather-dayAfterTomorrow {
   border: solid 1px black;
   width: 300px;
 }
 
-.wether-fhoto {
+.weather-fhoto {
   height: 60%;
 }
 /*# sourceMappingURL=style.css.map */

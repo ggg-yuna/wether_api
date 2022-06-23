@@ -1,4 +1,4 @@
-// 東京(130000)の予報を取得
+// 沖縄(471000)の予報を取得
 let url = "https://www.jma.go.jp/bosai/forecast/data/forecast/471000.json";
 
 fetch(url)
@@ -19,9 +19,9 @@ fetch(url)
 
 
         // 特定地域の情報を画面に書き出す
-        document.getElementById("wether-targetArea").lastElementChild.textContent = area.area.name;
-        document.getElementById("wether-today").lastElementChild.textContent = area.weathers[0];
-        document.getElementById("wether-tomorrow").lastElementChild.textContent = area.weathers[1];
-        document.getElementById("wether-dayAfterTomorrow").lastElementChild.textContent = area.weathers[2];
+        document.getElementById("weather-targetArea").lastElementChild.textContent = area.area.name;
+        document.getElementById("weather-today").lastElementChild.textContent = area.weathers[0];
+        document.getElementById("weather-tomorrow").lastElementChild.textContent = area.weathers[1];
+        document.getElementById("weather-dayAfterTomorrow").lastElementChild.textContent = area.weathers[2];
     });
 
