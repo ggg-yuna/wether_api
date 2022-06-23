@@ -1,1 +1,8 @@
-h1 {font-size: large;}
+.wether{
+  &-conteinar{
+    border: solid 1px black;
+    height: 100vh;
+    width: 100vw;
+  }
+
+}
