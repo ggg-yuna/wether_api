@@ -1,6 +1,11 @@
 .weather {
   text-align: center;
   height: 800px;
+}
+
+.weather-conteinar {
+  display: flex;
+  height: 80vh;
   width: 100vw;
   margin: 10px auto;
   justify-content: center;

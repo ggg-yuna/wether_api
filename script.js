@@ -1,27 +1,22 @@
-// 沖縄(471000)の予報を取得
-let url = "https://www.jma.go.jp/bosai/forecast/data/forecast/471000.json";
-
-fetch(url)
-    .then(function(response) {
-        return response.json();
+$(function () {
+    $.ajax({
+        url: 'https://www.jma.go.jp/bosai/forecast/data/overview_forecast/471000.json', //アクセスするURL
+        type: 'get',   //post or get
+        cache: false,        //cacheを使うか使わないかを設定
+        dataType: 'json',     //data type script・xmlDocument・jsonなど     
     })
-    .then(function(weather) {
-        console.log(weather);
 
-        // 特定の地域(今回は沖縄)だけ選択して変数に詰め直す
-        let area = weather[0].timeSeries[0].areas[0];
-        console.log(area); 
-
-
-        // 発表者と報告日時の情報を画面に書き出す
-        // document.getElementById("publishingOffice").lastElementChild.textContent = weather[0].publishingOffice;
-        // document.getElementById("reportDatetime").lastElementChild.textContent = weather[0].reportDatetime;
-
-
-        // 特定地域の情報を画面に書き出す
-        document.getElementById("weather-targetArea").lastElementChild.textContent = area.area.name;
-        document.getElementById("weather-today").lastElementChild.textContent = area.weathers[0];
-        document.getElementById("weather-tomorrow").lastElementChild.textContent = area.weathers[1];
-        document.getElementById("weather-dayAfterTomorrow").lastElementChild.textContent = area.weathers[2];
-    });
-
+        .done(function (response) {
+            console.log(response)
+            //通信成功時の処理
+            //成功したとき実行したいスクリプトを記載
+        })
+        .fail(function (xhr) {
+            //通信失敗時の処理
+            //失敗したときに実行したいスクリプトを記載
+        })
+        .always(function (xhr, msg) {
+            //通信完了時の処理
+            //結果に関わらず実行したいスクリプトを記載
+        });
+})
