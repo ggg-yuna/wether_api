@@ -1,6 +1,6 @@
 $(function () {
     $.ajax({
-        url: 'https://www.jma.go.jp/bosai/forecast/data/overview_forecast/471000.json', //アクセスするURL
+        url: 'https://www.jma.go.jp/bosai/forecast/data/forecast/471000.json', //アクセスするURL
         type: 'get',   //post or get
         cache: false,        //cacheを使うか使わないかを設定
         dataType: 'json',     //data type script・xmlDocument・jsonなど     

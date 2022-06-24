@@ -20,9 +20,19 @@
   }
 
   &-fhoto{
-    // background-color: aquamarine;
-    height: 60%;
+    background-color: aquamarine;
+    height: 40%;
 
+  }
+
+  &-wind{
+    background-color: pink;
+    height: 30%;
+  }
+
+  &-waves{
+    background-color: yellow;
+    height: 30%;
   }
 
 }
