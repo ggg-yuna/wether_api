@@ -8,6 +8,7 @@ $(function () {
 
         .done(function (response) {
             console.log(response)
+
             //通信成功時の処理
             //成功したとき実行したいスクリプトを記載
         })
