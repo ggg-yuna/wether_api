@@ -22,12 +22,13 @@
 }
 
 .weather-wind {
-  background-color: pink;
   height: 30%;
+  align-items: center;
+  font-size: 30px;
 }
 
 .weather-waves {
-  background-color: yellow;
   height: 30%;
+  font-size: 30px;
 }
 /*# sourceMappingURL=style.css.map */

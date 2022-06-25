@@ -26,13 +26,16 @@
   }
 
   &-wind{
-    background-color: pink;
+    // background-color: pink;
     height: 30%;
+    align-items: center;
+    font-size: 30px;
   }
 
   &-waves{
-    background-color: yellow;
+    // background-color: yellow;
     height: 30%;
+    font-size: 30px;
   }
 
 }

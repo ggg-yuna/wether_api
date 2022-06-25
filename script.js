@@ -8,6 +8,16 @@ $(function () {
 
         .done(function (response) {
             console.log(response)
+            // 風
+            console.log(response[0].timeSeries[0].areas[0].winds[1])
+            $(".weather-wind").text(response[0].timeSeries[0].areas[0].winds[1])
+        
+
+
+
+            // 波
+            console.log(response[0].timeSeries[0].areas[0].waves[0])
+            $(".weather-waves").text(response[0].timeSeries[0].areas[0].waves[0])
 
             //通信成功時の処理
             //成功したとき実行したいスクリプトを記載
