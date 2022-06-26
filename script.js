@@ -8,6 +8,18 @@ $(function () {
 
         .done(function (response) {
             console.log(response)
+
+
+            
+            
+
+            // 今日、明日、明後日の天気 
+            console.log(response[0].timeSeries[0].areas[0].weathers[0]);
+            $(".area-weathers").text(response[0].timeSeries[0].areas[0].weathers[0])
+            $(".area-weathers1").text(response[0].timeSeries[0].areas[0].weathers[1])
+            $(".area-weathers2").text(response[0].timeSeries[0].areas[0].weathers[2])
+
+
             // 風
             console.log(response[0].timeSeries[0].areas[0].winds[1])
             $(".weather-wind").text(response[0].timeSeries[0].areas[0].winds[0])
