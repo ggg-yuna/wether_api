@@ -10,7 +10,9 @@ $(function () {
             console.log(response)
             // 風
             console.log(response[0].timeSeries[0].areas[0].winds[1])
-            $(".weather-wind").text(response[0].timeSeries[0].areas[0].winds[1])
+            $(".weather-wind").text(response[0].timeSeries[0].areas[0].winds[0])
+            $(".weather-wind1").text(response[0].timeSeries[0].areas[0].winds[1])
+            $(".weather-wind2").text(response[0].timeSeries[0].areas[0].winds[2])
         
 
 
@@ -18,6 +20,8 @@ $(function () {
             // 波
             console.log(response[0].timeSeries[0].areas[0].waves[0])
             $(".weather-waves").text(response[0].timeSeries[0].areas[0].waves[0])
+            $(".weather-waves1").text(response[0].timeSeries[0].areas[0].waves[1])
+            $(".weather-waves2").text(response[0].timeSeries[0].areas[0].waves[2])
 
             //通信成功時の処理
             //成功したとき実行したいスクリプトを記載

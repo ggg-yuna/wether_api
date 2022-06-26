@@ -21,13 +21,13 @@
   height: 40%;
 }
 
-.weather-wind {
+.weather-wind, .weather-wind1, .weather-wind2 {
   height: 30%;
   align-items: center;
-  font-size: 30px;
+  font-size: 28px;
 }
 
-.weather-waves {
+.weather-waves, .weather-waves1, .weather-waves2 {
   height: 30%;
   font-size: 30px;
 }

@@ -25,14 +25,14 @@
 
   }
 
-  &-wind{
+  &-wind, &-wind1, &-wind2{
     // background-color: pink;
     height: 30%;
     align-items: center;
-    font-size: 30px;
+    font-size: 28px;
   }
 
-  &-waves{
+  &-waves,&-waves1,&-waves2{
     // background-color: yellow;
     height: 30%;
     font-size: 30px;
