@@ -1,7 +1,8 @@
 .weather {
   text-align: center;
   // background-color: aquamarine;
-  height: 800px;
+  height: 100vh;
+  width: 100vw;
 
   &-conteinar {
     display: flex;
