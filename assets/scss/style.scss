@@ -1,6 +1,8 @@
 .weather {
   text-align: center;
   // background-color: aquamarine;
+  background-image: url(../../img/background.jpeg);
+  background-size: cover;
   height: 100vh;
   width: 100vw;
 
@@ -9,14 +11,13 @@
     // border: solid 1px black;
     height: 80vh;
     width: 100vw;
-    margin: 10px auto;
     justify-content: center;
   }
 
   &-today,
   &-tomorrow,
   &-dayAfterTomorrow {
-    border: solid 1px black;
+    border: double 5px white;
     width: 300px;
   }
 
@@ -28,15 +29,29 @@
 
   &-wind, &-wind1, &-wind2{
     // background-color: pink;
-    height: 30%;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    height: 30%;
     font-size: 28px;
+    font-weight: 700;
+    color: white;
   }
 
   &-waves,&-waves1,&-waves2{
     // background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 30%;
     font-size: 30px;
+    font-weight: 700;
+    color: white;
   }
 
+// .weatherの最後
+}
+
+h1{
+  margin: 0%;
 }
