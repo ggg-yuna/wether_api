@@ -6,38 +6,41 @@
   height: 100vh;
   width: 100vw;
 
-&-targetArea  {
-  h1{
-font-size: 42px;
-color: rgba(2, 2, 2, 0.878);
-font-family:'Kosugi Maru', sans-serif;
-padding: 20px;
+  &-targetArea {
+    h1 {
+      font-size: 45px;
+      color: rgba(2, 2, 2, 0.878);
+      font-family: 'Kosugi Maru', sans-serif;
+      padding: 25px;
+    }
   }
-}
 
   &-conteinar {
     display: flex;
     // border: solid 1px black;
-    height: 80vh;
+    height: 85vh;
     width: 100vw;
     justify-content: center;
-    h1{
+
+    h1 {
       font-size: 48px;
-     margin-top: 20px;
-      font-family:'Kosugi Maru', sans-serif;
-      color: rgb(196, 1, 76);
+      margin-top: 20px;
+      font-family: 'Kosugi Maru', sans-serif;
+      color: rgb(206, 3, 80);
     }
   }
 
   &-today,
   &-tomorrow,
   &-dayAfterTomorrow {
-    border: double 5px rgba(0, 0, 0, 0.697);
+    border: double 4px rgba(0, 0, 0, 0.697);
     width: 350px;
   }
 
 
-  .area-weathers, .area-weathers1, .area-weathers2{
+  .area-weathers,
+  .area-weathers1,
+  .area-weathers2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,32 +49,35 @@ padding: 20px;
     font-weight: 650;
     color: rgba(0, 0, 0, 0.793);
     height: 20%;
-    // 
-    letter-spacing:-0.01em;
+    letter-spacing: -0.01em;
     line-height: 48px;
     font-family: 'Kosugi Maru', sans-serif;
   }
 
 
-  &-fhoto{
-    background-color: aquamarine;
-    height: 30%;
+  &-fhoto {
+    // background-color: aquamarine;
+    height: 20%;
 
   }
 
-  &-wind, &-wind1, &-wind2{
+  &-wind,
+  &-wind1,
+  &-wind2 {
     // background-color: pink;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10%;
+    height: 5%;
     font-size: 30px;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.853);
     font-family: 'Kosugi Maru', sans-serif;
   }
 
-  &-waves,&-waves1,&-waves2{
+  &-waves,
+  &-waves1,
+  &-waves2 {
     // background-color: yellow;
     display: flex;
     align-items: center;
@@ -79,13 +85,14 @@ padding: 20px;
     height: 15%;
     font-size: 30px;
     font-weight: 700;
+    line-height: 40px;
     color: rgba(0, 0, 0, 0.866);
     font-family: 'Kosugi Maru', sans-serif;
   }
 
-// .weatherの最後
+  // .weatherの最後
 }
 
-h1{
+h1 {
   margin: 0%;
 }
