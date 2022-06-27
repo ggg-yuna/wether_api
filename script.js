@@ -17,6 +17,45 @@ $(function () {
 
             // 今日、明日、明後日の天気 
             console.log(response[0].timeSeries[0].areas[0].weathers[0]);
+            let weather = response[0].timeSeries[0].areas[0].weathers[0]
+            let weather1 = response[0].timeSeries[0].areas[0].weathers[1]
+            let weather2 = response[0].timeSeries[0].areas[0].weathers[2]
+            // console.log(weather.indexOf('雷'));
+            // 1日目
+            if (weather.indexOf('雷') != -1) {
+                $(".weather-fhoto").eq(0).attr('src', './img/tenki_mark07_kaminari.png');
+
+            } else if (weather.indexOf('雨') = -1) {
+                $(".weather-fhoto").eq(0).attr('src', './img/tenki_mark02_ame.png');
+
+            } else if (weather.indexOf('晴れ') = -1) {
+                $(".weather-fhoto").eq(0).attr('src', './img/tenki_mark01_hare.png');
+            }
+
+            // 2日目
+            if (weather1.indexOf('雨') != -1) {
+                $(".weather-fhoto1").eq(0).attr('src', './img/tenki_mark02_ame.png');
+
+            } else if (weather1.indexOf('雷') = -1) {
+                $(".weather-fhoto1").eq(0).attr('src', './img/tenki_mark07_kaminari.png');
+
+
+            } else if (weather1.indexOf('晴れ') = -1) {
+                $(".weather-fhoto1").eq(0).attr('src', './img/tenki_mark01_hare.png');
+            }
+            
+            // ３日目
+            if (weather2.indexOf('晴れ') != -1) {
+                $(".weather-fhoto2").eq(0).attr('src', './img/tenki_mark01_hare.png');
+
+            } else if (weather2.indexOf('雨') = -1) {
+                $(".weather-fhoto2").eq(0).attr('src', './img/tenki_mark02_ame.png');
+
+            } else if (weather2.indexOf('雷') = -1) {
+                $(".weather-fhoto2").eq(0).attr('src', './img/tenki_mark07_kaminari.png');
+            }
+
+            // console.log(test);
 
             $(".area-weathers").text(response[0].timeSeries[0].areas[0].weathers[0])
             $(".area-weathers1").text(response[0].timeSeries[0].areas[0].weathers[1])
@@ -87,6 +126,6 @@ $(function () {
 
 
 
-        
+
 })
 
