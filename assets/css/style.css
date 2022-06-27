@@ -1,3 +1,7 @@
+* {
+  margin: 0%;
+}
+
 .weather {
   text-align: center;
   background-image: url(../../img/background.jpeg);
@@ -7,10 +11,9 @@
 }
 
 .weather-targetArea h1 {
-  font-size: 45px;
+  font-size: 40px;
   color: rgba(2, 2, 2, 0.878);
   font-family: 'Kosugi Maru', sans-serif;
-  padding: 25px;
 }
 
 .weather-conteinar {
@@ -21,7 +24,7 @@
 }
 
 .weather-conteinar h1 {
-  font-size: 48px;
+  font-size: 40px;
   line-height: 70px;
   font-family: 'Kosugi Maru', sans-serif;
   color: #ce0350;
@@ -39,11 +42,11 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 650;
   color: rgba(0, 0, 0, 0.793);
   height: 20%;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.1em;
   line-height: 48px;
   font-family: 'Kosugi Maru', sans-serif;
 }
@@ -57,7 +60,7 @@
   align-items: center;
   justify-content: center;
   height: 5%;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.853);
   font-family: 'Kosugi Maru', sans-serif;
@@ -68,14 +71,10 @@
   align-items: center;
   justify-content: center;
   height: 15%;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 40px;
   color: rgba(0, 0, 0, 0.866);
   font-family: 'Kosugi Maru', sans-serif;
-}
-
-.weather h1 {
-  margin: 0%;
 }
 /*# sourceMappingURL=style.css.map */
