@@ -5,11 +5,12 @@
   height: 100vh;
   width: 100vw;
 }
-.weather-targetArea h1{
-font-size: 50px;
-color: rgba(237, 235, 235, 0.918);
-font-family: 'Kosugi Maru', sans-serif;
-padding: 30px;
+
+.weather-targetArea h1 {
+  font-size: 42px;
+  color: rgba(2, 2, 2, 0.878);
+  font-family: 'Kosugi Maru', sans-serif;
+  padding: 20px;
 }
 
 .weather-conteinar {
@@ -19,28 +20,28 @@ padding: 30px;
   justify-content: center;
 }
 
-.weather-conteinar h1{
-  font-size: 45px;
-  color: red;
-  padding: 15px;
+.weather-conteinar h1 {
+  font-size: 48px;
+  margin-top: 20px;
   font-family: 'Kosugi Maru', sans-serif;
+  color: #c4014c;
 }
 
 .weather-today, .weather-tomorrow, .weather-dayAfterTomorrow {
-  border: double 5px white;
-  width: 300px;
+  border: double 5px rgba(0, 0, 0, 0.697);
+  width: 350px;
 }
 
-.area-weathers, .area-weathers1, .area-weathers2 {
+.weather .area-weathers, .weather .area-weathers1, .weather .area-weathers2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
+  padding: 20px;
+  font-size: 32px;
   font-weight: 650;
-  color: rgba(255, 255, 255, 0.906);
-  height: 25%;
-  font-feature-settings: "palt";
-  padding: 0.1em;
+  color: rgba(0, 0, 0, 0.793);
+  height: 20%;
+  letter-spacing: -0.01em;
   line-height: 48px;
   font-family: 'Kosugi Maru', sans-serif;
 }
@@ -54,10 +55,10 @@ padding: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 20%;
-  font-size: 28px;
+  height: 10%;
+  font-size: 30px;
   font-weight: 700;
-  color: white;
+  color: rgba(0, 0, 0, 0.853);
   font-family: 'Kosugi Maru', sans-serif;
 }
 
@@ -65,10 +66,10 @@ padding: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 20%;
+  height: 15%;
   font-size: 30px;
   font-weight: 700;
-  color: white;
+  color: rgba(0, 0, 0, 0.866);
   font-family: 'Kosugi Maru', sans-serif;
 }
 

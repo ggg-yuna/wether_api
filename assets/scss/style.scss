@@ -6,6 +6,14 @@
   height: 100vh;
   width: 100vw;
 
+&-targetArea  {
+  h1{
+font-size: 42px;
+color: rgba(2, 2, 2, 0.878);
+font-family:'Kosugi Maru', sans-serif;
+padding: 20px;
+  }
+}
 
   &-conteinar {
     display: flex;
@@ -13,13 +21,19 @@
     height: 80vh;
     width: 100vw;
     justify-content: center;
+    h1{
+      font-size: 48px;
+     margin-top: 20px;
+      font-family:'Kosugi Maru', sans-serif;
+      color: rgb(196, 1, 76);
+    }
   }
 
   &-today,
   &-tomorrow,
   &-dayAfterTomorrow {
-    border: double 5px white;
-    width: 300px;
+    border: double 5px rgba(0, 0, 0, 0.697);
+    width: 350px;
   }
 
 
@@ -27,12 +41,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    padding: 20px;
+    font-size: 32px;
     font-weight: 650;
-    color: rgba(255, 255, 255, 0.906);
-    height: 25%;
-    font-feature-settings: "palt";
-    padding: 0.1em;
+    color: rgba(0, 0, 0, 0.793);
+    height: 20%;
+    // 
+    letter-spacing:-0.01em;
     line-height: 48px;
     font-family: 'Kosugi Maru', sans-serif;
   }
@@ -49,10 +64,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20%;
-    font-size: 28px;
+    height: 10%;
+    font-size: 30px;
     font-weight: 700;
-    color: white;
+    color: rgba(0, 0, 0, 0.853);
     font-family: 'Kosugi Maru', sans-serif;
   }
 
@@ -61,10 +76,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20%;
+    height: 15%;
     font-size: 30px;
     font-weight: 700;
-    color: white;
+    color: rgba(0, 0, 0, 0.866);
     font-family: 'Kosugi Maru', sans-serif;
   }
 
