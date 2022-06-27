@@ -6,6 +6,8 @@
   height: 100vh;
   width: 100vw;
 
+
+
   &-targetArea {
     h1 {
       font-size: 45px;
@@ -14,6 +16,28 @@
       padding: 25px;
     }
   }
+
+//   .toggle-menu{
+//     h1{
+//     text-align: center;
+//     font-size:35px;
+//     font-weight: 700;
+//     line-height: 80px;
+//     color: black;
+//     font-family: 'Kosugi Maru', sans-serif;
+//     cursor: default;
+//   }
+// }
+
+
+// .toggle_menu {
+//   font-size: 18px;
+//   display: none;
+//   line-height: 50px;
+//   box-sizing: border-box;
+//   cursor: default;
+// }
+
 
   &-conteinar {
     display: flex;
@@ -24,7 +48,7 @@
 
     h1 {
       font-size: 48px;
-      margin-top: 20px;
+      line-height: 70px;
       font-family: 'Kosugi Maru', sans-serif;
       color: rgb(206, 3, 80);
     }
@@ -91,8 +115,10 @@
   }
 
   // .weatherの最後
-}
+
 
 h1 {
   margin: 0%;
+}
+
 }

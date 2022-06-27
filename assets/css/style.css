@@ -22,7 +22,7 @@
 
 .weather-conteinar h1 {
   font-size: 48px;
-  margin-top: 20px;
+  line-height: 70px;
   font-family: 'Kosugi Maru', sans-serif;
   color: #ce0350;
 }
@@ -75,7 +75,7 @@
   font-family: 'Kosugi Maru', sans-serif;
 }
 
-h1 {
+.weather h1 {
   margin: 0%;
 }
 /*# sourceMappingURL=style.css.map */

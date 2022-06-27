@@ -9,6 +9,12 @@ $(function () {
         .done(function (response) {
             console.log(response)
 
+
+            //toglle-menu 天気予報
+            // $('#intro_btn').on('click',function(){
+            // $('.toggle_menu ').slideToggle();
+            // })
+
             // 今日、明日、明後日の天気 
             console.log(response[0].timeSeries[0].areas[0].weathers[0]);
             $(".area-weathers").text(response[0].timeSeries[0].areas[0].weathers[0])
