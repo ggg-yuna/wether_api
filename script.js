@@ -17,7 +17,13 @@ $(function () {
 
             // 今日、明日、明後日の天気 
             console.log(response[0].timeSeries[0].areas[0].weathers[0]);
-
+            switch (response[0].timeSeries[0].areas[0].weathers[0]){
+                case 'kaminari':
+                $(".weather-fhoto").html('<img src=”./img/tenki_mark07_kaminari.png” >');
+                break;
+                default:
+                    $(".weather-fhoto").html("<img src='img/tenki_mark01_hare.png' >");
+            }   
             $(".area-weathers").text(response[0].timeSeries[0].areas[0].weathers[0])
             $(".area-weathers1").text(response[0].timeSeries[0].areas[0].weathers[1])
             $(".area-weathers2").text(response[0].timeSeries[0].areas[0].weathers[2])
