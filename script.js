@@ -58,9 +58,9 @@ $(function () {
 
             // console.log(test);
 
-            // $(".area-weathers").text(response[0].timeSeries[0].areas[0].weathers[0])
-            // $(".area-weathers1").text(response[0].timeSeries[0].areas[0].weathers[1])
-            // $(".area-weathers2").text(response[0].timeSeries[0].areas[0].weathers[2])
+             $(".area-weathers").text(response[0].timeSeries[0].areas[0].weathers[0])
+             $(".area-weathers1").text(response[0].timeSeries[0].areas[0].weathers[1])
+             $(".area-weathers2").text(response[0].timeSeries[0].areas[0].weathers[2])
 
             //日付
             console.log(response[0].timeSeries[0].timeDefines[0])
